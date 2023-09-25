@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+}
+input{
+    margin: 20px;
+}
+
+.div1{
+    text-align: center;
+    /* background-color: blue; */
+    margin: 10px;
+    /* padding: 10px; */
+    /* width: 500px; */
+}
+.div1 input{
+    background-color: red;
+    height: 20px;
+    width: 20%;
+    justify-self: flex-end;
+}
