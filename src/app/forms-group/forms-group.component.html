@@ -9,12 +9,13 @@
         <div *ngIf="name.invalid || name.touched" class="alert">IMvalid</div>
     </div>
 
-    
+
     <div class="div1">
         <label for="">Last Name: </label>
         <input #name="ngModel"  type="text" name="lname" id="" ngModel>
         <div *ngIf="name.invalid || name.touched" class="alert">IMvalid</div>
     </div>
+    
     <div class="div1">
         <label for="">Email: </label>
         <input type="email" name="email" id="" required ngModel>
